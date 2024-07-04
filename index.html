@@ -1,103 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-     <meta lang="charset-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="icon" href="Asset 2@3x.png" type="image">
-     <title> Lucky Shurb - Landscape planner for you.</title>
-     <meta property="og:title" content="Lucky Shrub">
-     <meta property="og:type" content="website">
-     <meta property="og:image" content="logo.jpg" >
-     <meta property="og.url " content="https://shammim.github.io/luckyshrub>
-     <meta property="og:description " content="Lucky Shrub is a medium-sized garden design firm that specializes in garden design and creation, maintenance and landscaping. ">
-     <meta property="og:locale " content="en_US ">
-     <meta property="og:site_name " content="Lucky Shrub">
-     <link rel="stylesheet " href="stylesheet.css" />
-     <link rel ="preconnect" href="https://fonts.googleapis.com">
-     <script src="https://cdn.tailwindcss.com"></script>
-   </head>
-   <header>
-    <nav>
-       <ul>
-          <li>
-             <img src="Asset 2@3x.png" width="40px" height="70px" alt="Logo" class="Sitelogo"/>
-          </li>
-          <li><a class="active" href="index.html" class="navigation" >Home</a></li>
-          <li><a href="projects.html" class="navigation">Projects</a></li>
-          <li><a href ="Designservices.html" class="navigation">Services</a></li>
-          <li><a href="Aboutus.html">About us</a></li>
-          <li> <a href="Blog.html">Blog </a></li>
-          <li> <img src="Search.svg" width="20px" height="20px"/></li>
-          <li> <img src="Cart-shopping.svg" width="30px" height="30px"/></li>
-          <li> <img src="iconizer-heart-svgrepo-com.svg" width="30px" height="30px"/></li>
-          <li> <img src="user-heart.svg" width="30px" height="30px" href="Signin.html" /></li>
-        </ul>
-    </nav>
- </header>
- <br>
-  <main>
-    <ul class="breadcrumb">
-           <li><a href="index.html">Home</a></li>
-     </ul>
- </main>
- <body>
-      <section class="Hero">
+ <head>
+      <meta lang="charset-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="Asset 2@3x.png" type="image">
+      <title> Lucky Shurb - Landscape planner for you.</title>
+      <meta property="og:title" content="Lucky Shrub">
+      <meta property="og:type" content="website">
+      <meta property="og:image" content="IMages/logo.jpg" >
+      <meta property="og.url " content="https://shammim.github.io/luckyshrub">
+      <meta property="og:description" content="Lucky Shrub is a medium-sized garden design firm that specializes in garden design and creation, maintenance and landscaping. ">
+      <meta property="og:locale " content="en_US ">
+      <meta property="og:site_name " content="Lucky Shrub">
+      <link rel="stylesheet " href="stylesheet.css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+ </head>
+ <!--body section-->
+ <body class="bg-gray-100">
+      <div class="flex items-center justify-center h-100">
+         <a href="index.html"><img src="Images/Asset 2@3x.png" class="h-20 justify-between items-center"  alt="Logo" class="Sitelogo"/></a> 
+      </div>
+      <header class="header" id="header">
+         <nav class=" text-gray-800 py-2">
+          <ul class="flex justify-between items-center">
+               <li><a class="active" href="index.html" class="text-gray-200 bg-[#495E57] rounded-lg py-2 px-4 mx-4 text-lg" >Home</a></li>
+               <li><a href="Aboutus.html" class="mx-4 text-lg">About</a></li>
+               <li><a href="projects.html" class="mx-4 text-lg">Projects</a></li>
+               <li><a href ="Designservices.html" class="mx-4 text-lg">Services</a></li>
+               <li><a href="Blog.html" class="mx-4 text-lg">Blog </a></li>
+               <li><a href=""><img src="Images/search.png"  width="20px" height="20px"/></a></li>
+               <li><a href="Account.html"><img src="Images/user-heart.svg" width="30px" height="30px"/></a></li>
+            </ul>
+         </nav>
+    </header>
+     <button class="toggle-button bg-[#495E57] text-gray-900 font-bold py-2 px-4 rounded" id="menuBtn"> <img src="Images/menu.png" class="w-8 h-8"/></button>
+     <div class="hidden" id="sidebar">
+       <nav>
+        <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-[#495E57]">
+          <li><a class="active text-[#495E57] hover:underline mx-4" href="index.html">Home</a></li>
+          <li><a class="text-[#495E57] hover:underline mx-4" href="About.html">About</a></li>
+          <li><a class="text-[#495E57] hover:underline mx-4" href="Menu.html">Projects</a></li>
+          <li><a class="text-[#495E57] hover:underline mx-4" href="Reservation.html">Services</a></li>
+          <li><a class="text-[#495E57] hover:underline mx-4" href="orderonline.html">Blog</a></li>
+          <li><a class="text-[#495E57] hover:underline mx-4" href="search.html"><img src="Images/search.png"  width="20px" height="20px"/></a></li>
+          <li><a class="text-[#495E57] hover:underline mx-4" href="Account.html"><img src="Images/user-heart.svg" width="30px" height="30px"/></a></li>
+       </ul>
+      </nav>
+    </div>
+     <br>
+     <main >
+         <ul class="breadcrumb">
+            <li> <a href="index.html">Home</a>  </li>
+         </ul>
+     </main>
+    <section class="pl-5 rounded-xl text-gray-800 mt-4 mb-4 bg-[#B0EED7] pb-7">
          <article>
             <div>
-               <h1 class="Hero_title"><b>Lucky Shrub</b></h1>
-               <h3 class="Hero_subtitle">Australia</h3>
-               <p class="Heropara">Welcome to Lucky Shrub Landscaping. </p>
-               <p class="Heropara">Explore your outdor living with our expert touch.</p>
-               <p> Discover your dream landscape with us today</p>
+               <h1 class="font-PlayfairDisplay font-serif items-center text-4xl mt-4"><b>Lucky Shrub</b></h1>
+               <h3 class="font-Roboto font-[san_serif] mt-4 text-gray-800 items-center font-Lato font-[san_serif]">Australia</h3>
+               <p class="text-gray-800 font-normal text-base">Welcome to Lucky Shrub Landscaping. </p>
+               <p class="text-gray-800 font-normal text-base">Explore your outdor living with our expert touch.</p>
+               <p class="text-gray-800 font-normal text-base"> Discover your dream landscape with us today</p>
             </div>
             <br>
-            <a class="Hero_button" href="Signin.html">Request a quote</a>
+            <a href ="Signin.html"><button  class=" bg-[#26877f] text-white-200 bg-hover:text-gray-200 font-normal  mt-2 mx-4 font-Lato text-base font-normal rounded p-2.5 ml-30">Get a Quote</button></a>
          </article>
          </div>
       </section>
-    <div class="Services_section">
-       <section class="Servicesheading">
+    <div id="services" class="Services_section">
+       <section class="flex flex-col container mx-auto mt-16">
           <article>
-             <h2 class="title_service"> Services</h2>
+             <h2 class="text-[#26877f] font-PlayfairDisplay text-3xl font-bold"> Services</h2>
            </article>
         </section>
-        <section class="services_subsection">
-            <div class="Landscaping">
-               <article class="Landscape_section" >
-                  <h4 class="service">Landscaping</h4>
-                  <br>
-                  <p class="servicepara">Landscape Service combines artistry and nature to craft captivating outdoor spaces. With a focus on quality, sustainability, and personalized design, we create enduring landscapes that reflect your unique style and vision.</p>
-                 <br>
-                <a href="Landscaping.html"class="service_button">Know more</a>
-                <br>
-              </article>
-            </div>
-            <div class="Hardscaping">
-               <article class="Hardscape_section">
-                  <h4 class="service">Hardscaping</h4>
-                  <br>
-                 <p class="servicepara">Hardscaping Service adds architectural elegance to your outdoor spaces. Our expert craftsmanship and quality materials transform your patio, walkways, and retaining walls into stunning, functional features that elevate your landscape.</p>
-                 <br>
-                 <a href="Hardscaping.html"class="service_button">Know more</a>
-                 <br>
-                 <br>
-              </article>
-            </div>
-          <div class="Commercial">
-            <article class="Commercial_section">
-               <h4 class="service">Commercial </h4>
-               <br>
-               <p class="servicepara">Commercial Landscaping Service enhances your business's curb appeal with precision and professionalism. From meticulous maintenance to impressive outdoor designs, we create inviting and polished commercial spaces that leave a lasting impression. </p>
-               <br>
-               <a href="Commercial.html" class="service_button">Know more</a>
-               <br>
+        <section class="grid md:grid-cols-3 gap-8">
+            <article class="bg-[#EDEFEE] rounded-lg p-4">
+               <img class="w-fit h-32 rounded-lg " src="Images/landsacping.jpg" alt="Landscaping" />
+               <div class="mt-4" >
+                  <div class="flex justify-between items-center">
+                     <h3 class="font-bold text-lg">Landscaping</h3>
+                  </div>
+                  <p class="mt-2">Landscape Service combines artistry and nature to craft captivating outdoor spaces. With a focus on quality, sustainability, and personalized design, we create enduring landscapes that reflect your unique style and vision.</p>
+                  <a href="Landscaping.html"class="ml-8 inline-flex items-center mt-4 bg-[#26877f] text-white font-bold py-2 px-4 rounded">Know more</a>
+               </div>
             </article>
-          </div>
+            <article class="bg-[#EDEFEE] rounded-lg p-4">
+               <img class="w-fit h-32 rounded-lg " src="Images/hard4.jpeg" alt="Hardscaping" />
+               <div class="mt-4" >
+                  <div class="flex justify-between items-center">
+                     <h3 class="font-bold text-lg">Hardscaping</h3>
+                  </div>
+                  <p class="mt-2">Hardscaping Service adds architectural elegance to your outdoor spaces. Our expert craftsmanship and quality materials transform your patio, walkways, and retaining walls into stunning, functional features that elevate your landscape.</p>
+                  <a href="Hardscaping.html"class="ml-8 inline-flex items-center mt-4 bg-[#26877f] text-white font-bold py-2 px-4 rounded">Know more</a>
+               </div>
+            </article>
+            <article class="bg-[#EDEFEE] rounded-lg p-4">
+               <img class="w-fit h-32 rounded-lg " src="Images/commercial2.jpeg" alt="Commercial" />
+               <div class="mt-4" >
+                  <div class="flex justify-between items-center">
+                     <h3 class="font-bold text-lg">Commercials</h3>
+                  </div>
+                  <p class="mt-2">Commercial Landscaping Service enhances your business's curb appeal with precision and professionalism. From meticulous maintenance to impressive outdoor designs, we create inviting and polished commercial spaces that leave a lasting impression. </p>
+                  <a href="Commercial.html"class=" ml-8 inline-flex items-center mt-4 bg-[#26877f] text-white font-bold py-2 px-4 rounded">Know more</a>
+               </div>
+            </article>
        </section>
     </div>
     <br>
     <br>
-    <br>
+    
     <div>
        <section class="quote">
           <article>
@@ -112,31 +123,18 @@
     </div>
     <br>
     <br>
-    <div class="projects_section">
-       <div>
-            <a class="projects_tab" href="projects.html"> Projects</a>
-            <a class="Landscape_tab" href="Landscaping.html"> Landscaping</a>
-            <a class="Hardscaping_tab" href="Hardscaping.html"> Hardscaping</a>
-            <a class="Commercial_tab" href="Commercial.html"> Commercial</a>
-       </div>
-       <br>
-    </div> 
     <section class="projectstab">
          <div class="Landscapetab">
             <article class="ongoingprojects">
                <h3 class="projectname">Rivera project</h3>
                <img class="Riveraimg" src="Images/Riveriaproject.jpg" alt="ongoingprojects" width="250px", height="200px">
-               <br>
-               <br>
                <button class="ongoingbutton">Explore more</button>
-               <br>
-               <br>
             </article>
          </div>
          <div class="Landscapetab">
             <article class="ongoingprojects">
                <h3 class="projectname">Shell project</h3>
-               <img class="Shellimg" src="Images/Shellproject.jpg" alt="ongoingprojects" width="250px", height="200px">
+               <img class="Shellimg" src="Images/she" alt="ongoingprojects" width="250px", height="200px">
                <br>
                <br>
                <button class="ongoingbutton">Explore more</button>
@@ -157,12 +155,12 @@
           </div>
        </section>
     </div> 
-    <div class="Testimonials_section">
-       <div>
+    <div id="Testimonials" class="Testimonials">
+       <section class="flex justify-center items-center mb-8">
           <h2 class="testimonial_title">Testimonials</h2>
        </div>
        <br>
-       <section class="Testimonials">
+       <section class="items-center ps-8 pl-">
            <div>
             <article class="Testimonial">
                <div class="Review">
@@ -308,5 +306,11 @@
        </article>
     </section>
  </footer>
+ <script>
+   document.getElementById('menuBtn').addEventListener('click', function(){
+   const sidebar =document.getElementById('sidebar');
+   sidebar.classList.toggle('hidden');
+   });
+ </script>
   </body>
 </html>

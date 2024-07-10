@@ -436,7 +436,7 @@ article ul {
   padding-left: 20px;
   border: #26877f;
   border-width: 1px;
-  border-style: outset;
+  border-style: solid;
   display: inline;
 }
 .why_para{

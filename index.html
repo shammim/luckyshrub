@@ -29,8 +29,23 @@
           <ul class="flex justify-between items-center">
                <li><a  href="index.html" class="active text-gray-200 bg-[#26877f] rounded-lg py-2 px-4 mx-4 text-lg" >Home</a></li>
                <li><a href="Aboutus.html" class="mx-4 text-lg">About</a></li>
-               <li><a href="projects.html" class="mx-4 text-lg">Projects</a></li>
-               <li><a href ="Designservices.html" class="mx-4 text-lg">Services</a></li>
+               
+               <li class="relative group">
+                  <a href="javascript:void(0)" class="mx-4 text-lg">Projects</a>
+                  <ul class="absolute hidden group-hover:block bg-white shadow-md rounded-lg mt-1">
+                      <li><a href="Landscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Landscape Projects</a></li>
+                      <li><a href="Hardscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Hardscape Projects</a></li>
+                      <li><a href="Commercial.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Commercial Projects</a></li>
+                  </ul>
+              </li>
+               <li class="relative group">
+                  <a href="javascript:void(0)" class="mx-4 text-lg">Services</a>
+                  <ul class="absolute hidden group-hover:block bg-white shadow-md rounded-lg mt-1">
+                      <li><a href="Landscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Landscaping</a></li>
+                      <li><a href="Hardscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Hardscaping</a></li>
+                      <li><a href="Commercial.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Commercial</a></li>
+                  </ul>
+              </li>
                <li><a href="Blog.html" class="mx-4 text-lg">Blog </a></li>
                <li><a href=""><img src="Icons/search.png" width="30px" height="30px"/></a></li>
                <li><a href="Account.html"><img src="Icons/user-heart.svg" width="30px" height="30px"/></a></li>
@@ -52,14 +67,15 @@
       </nav>
     </div>
      <br>
-
+<!---breadcrumb section-->
      <main class="breadcrumb">
          <ul>
             <li> <a href="index.html">Home</a>  </li>
          </ul>
      </main>
      <br>
-    <section class="pl-5 rounded-xl text-gray-800 mt-4 mb-4 bg-[#B0EED7] pb-7">
+     <!---Hero section-->
+    <section id="Hero" class="pl-5 rounded-xl text-gray-800 mt-4 mb-4 bg-[#B0EED7] pb-7">
          <article class="justify-center">
             <h1 class="font-PlayfairDisplay font-serif items-center text-4xl mt-4"><b>Lucky Shrub</b></h1>
             <h3 class="font-Roboto font-[san_serif] mt-4 text-gray-800 items-center font-Lato font-[san_serif]">Australia</h3>
@@ -77,37 +93,38 @@
            </article>
         </section>
         <section class="grid md:grid-cols-3 gap-8">
-            <article class="bg-[#EDEFEE] rounded-lg p-4 d-block w-100">
-               <img class="w-fit h-32 rounded-lg " src="Images/landsacping.jpg" alt="Landscaping" />
+         <article class="bg-[#EDEFEE] rounded-lg p-4">
+            <img class="w-full rounded-lg" src="Images/Landscaping/whitehome.jpg" alt="Landscaping" />
+            <div class="mt-4">
+              <div class="flex justify-between items-center">
+                <h3 class="font-bold text-lg">Landscaping</h3>
+              </div>
+              <p class="mt-2">Landscape Service combines artistry and nature to craft captivating outdoor spaces. With a focus on quality, sustainability, and personalized design, we create enduring landscapes that reflect your unique style and vision.</p>
+              <a href="Landscaping.html" class="inline-flex items-center mt-4 bg-[#26877f] text-gray-100 font-bold py-2 px-4 rounded">Explore
+                <img src="Icons/park.png" alt="Landscape icon" class="ml-2 delivery_icon" width="20" height="20" />
+              </a>
+            </div>
+          </article>
+          <article class="bg-[#EDEFEE] rounded-lg p-4">
+               <img class="w-full rounded-lg" src="Images/Hardscaping/Ha.jpg" alt="Hardscaping" />
                <div class="mt-4">
-                  <div class="flex justify-between items-center">
-                     <h3 class="font-bold text-lg">Landscaping</h3>
-                  </div>
-                  <p class="mt-2">Landscape Service combines artistry and nature to craft captivating outdoor spaces. With a focus on quality, sustainability, and personalized design, we create enduring landscapes that reflect your unique style and vision.</p>
-
-                  <a href="Landscaping.html"class="ml-8 inline-flex items-center bg-[#26877f] text-white font-bold py-2 px-4 rounded">Know more</a>
-               </div>
-            </article>
-            <article class="bg-[#EDEFEE] rounded-lg p-4 d-block w-100">
-               <img class="w-fit h-32 rounded-lg " src="Images/hard4.jpeg" alt="Hardscaping" />
-               <div class="mt-4" >
                   <div class="flex justify-between items-center">
                      <h3 class="font-bold text-lg">Hardscaping</h3>
                   </div>
                   <p class="mt-2">Hardscaping Service adds architectural elegance to your outdoor spaces. Our expert craftsmanship and quality materials transform your patio, walkways, and retaining walls into stunning, functional features that elevate your landscape.</p>
-                  <a href="Hardscaping.html"class="ml-8 inline-flex items-center bg-[#26877f] text-white font-bold py-2 px-4 rounded">Know more</a>
-               </div>
-            </article>
-            <article class="bg-[#EDEFEE] rounded-lg p-4 d-block w-100">
-               <img class="w-fit h-32 rounded-lg " src="Images/commercial2.jpeg" alt="Commercial" />
-               <div class="mt-4" >
+                  <a href="Hardscaping.html" class="inline-flex items-center mt-4 bg-[#26877f] text-gray-100 font-bold py-2 px-4 rounded">Explore</a>
+             </div>
+          </article>
+          <article class="bg-[#EDEFEE] rounded-lg p-4">
+               <img class="w-full rounded-lg" src="Images/Commercial/pexels-jimbear-1458457.jpg" alt="commercial" />
+               <div class="mt-4">
                   <div class="flex justify-between items-center">
-                     <h3 class="font-bold text-lg">Commercials</h3>
+                     <h3 class="font-bold text-lg">Commercial</h3>
                   </div>
-                  <p class="mt-2">Commercial Landscaping Service enhances your business's curb appeal with precision and professionalism. From meticulous maintenance to impressive outdoor designs, we create inviting and polished commercial spaces that leave a lasting impression. </p>
-                  <a href="Commercial.html"class=" ml-8 inline-flex items-center bg-[#26877f] text-white font-bold py-2 px-4 rounded">Know more</a>
-               </div>
-            </article>
+                  <p class="mt-2">Commercial Service adds architectural elegance to your outdoor spaces. Our expert craftsmanship and quality materials transform your patio, walkways, and retaining walls into stunning, functional features that elevate your landscape.</p>
+                  <a href="Hardscaping.html" class="inline-flex items-center mt-4 bg-[#26877f] text-gray-100 font-bold py-2 px-4 rounded">Explore</a>
+             </div>
+          </article>
        </section>
     </div>
     <br>
@@ -119,49 +136,44 @@
               <h2 class="font-bold text-xl font-Roboto text-gray-600 mb-2 mt-4">Have any project in mind?</h2>
               <p class="font-Roboto text-gray-500 p-2">Schedule an appointment with us!</p>
               <br>
-              <a class="mb-2" href="quote.html">
-                  <button class="bg-[#495E57] text-white font-bold py-2 px-4 rounded">Get a Quote</button>
-              </a>
+              <a class="mb-2" href="quote.html"><button class="text-white font-bold py-2 px-4 rounded">Get a Quote</button></a>
           </article>
       </section>
   </div>
     <br>
-    <section id="projectstab" class="grid grid-cols-3">
-         <div class="justify-center">
-            <article class="justify-center border-2">
-               <img class="w-fit h-60 mb-4 ml-12 rounded" src="Images/project1.jpg" alt="ongoingprojects">
-               <h3 class="projectname">Rivera project</h3>
-               <br>
-               <p class="pl-4 pr-4"> This project is working towards the gardening side.</p>
-               <br>
-               <a href="Hardscaping.html" class="items-center ml-7 bg-[#26877f] text-white ml-17"><button>Explore more</button></a>
-            </article>
-         </div>
-         <div class="justify-center">
-            <article class="justify-center border-2">
-               <img class="px-7 mt-4" src="Images/project2.jpg" alt="ongoingprojects">
-               <h3 class="projectname">Shell project</h3>
-               <br>
-               <p class="pl-4 pr-4"> This project is working towards the gardening side.</p>
-               <br>
-               <a href="Landscaping.html" class="items-center bg-[#26877f] text-white ml-17"><button>Explore more</button></a>
-               <br>
-             <br>
-            </article>
-         </div>
-          <div class="justify-center">
-            <article class="justify-center border-2">
-              <img class="w-fit h-60 mb-4 ml-12 mt-8 rounded" src="Images/project3.jpg" alt="ongoingprojects" >
-              <h3 class="projectname">Sky scrapper Project</h3>
-              <br>
-              <p class="pl-4 pr-4">This project is working towards the gardening side.</p>
-              <br>
-              <a href="Commercial.html" class="items-center ml-7 bg-[#26877f] text-white ml-17"><button>Explore more</button></a>
-             <br>
-             <br>
-           </article>
-          </div>
-       </section>
+    <div id="projectstab" class="projects">
+      <section>
+         <h2 class="text-[#26877f] text-4xl font-bold text-center"> Projects</h2>
+      </section>
+      <section class="grid md:grid-cols-3 gap-8 justify-center">
+         <article class="bg-[#EDEFEE] rounded-lg p-4">
+            <img class="w-fit h-60 mb-4 rounded" src="Images/project1.jpg" alt="ongoingprojects">
+            <h3 class="projectname">Rivera project</h3>
+            <br>
+            <p class="pl-4 pr-4"> This project is working towards the gardening side.</p>
+            <br>
+            <a href="Hardscaping.html" class="inline-flex items-center mt-4 bg-[#26877f] text-white font-bold py-2 px-4 rounded">Explore</a>
+       </article>  
+       <article class="bg-[#EDEFEE] rounded-lg p-4">
+            <img class="w-fit h-60 mb-4  rounded" src="Images/project2.jpg" alt="ongoingprojects">
+            <h3 class="pt-5">Shell project</h3>
+            <br>
+            <p class="pl-4 pr-4"> This project is working towards the gardening side.</p>
+            <br>
+            <a href="Landscaping.html" class="inline-flex items-center mt-4 bg-[#26877f] text-white font-bold py-2 px-4 rounded">Explore </a>
+            <br>
+       </article>   
+       <article class="bg-[#EDEFEE] rounded-lg p-4">
+            <img class="w-fit h-60 mb-4 rounded" src="Images/project3.jpg" alt="ongoingprojects" >
+            <h3 class="projectname">Sky scrapper Project</h3>
+            <br>
+            <p class="pl-4 pr-4">This project is working towards the gardening side.</p>
+            <br>
+            <a href="Commercial.html" class="inline-flex items-center mt-4 bg-[#26877f] text-white font-bold py-2 px-4 rounded">Explore</a>
+            <br>
+            <br>
+        </article>  
+    </section>
     </div>
     <!--FAQs-->
     <div id="Testimonials" class="Testimonials">

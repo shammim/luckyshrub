@@ -7,7 +7,11 @@
       <title> Lucky Shurb - Landscape planner for you.</title>
       <meta property="og:title" content="Lucky Shrub">
       <meta property="og:type" content="website">
-      <meta property="og:image" content="IMages/logo.jpg" >
+      <meta property="og:image" content="Asset 2@3x.png" >
+      <meta property="og:image:type" content="image/png" />
+      <meta property="og:image:width" content="400" />
+      <meta property="og:image:height" content="300" />
+      <meta property="og:image:alt" content="A plant with company name" />
       <meta property="og.url " content="https://shammim.github.io/luckyshrub">
       <meta property="og:description" content="Lucky Shrub is a medium-sized garden design firm that specializes in garden design and creation, maintenance and landscaping. ">
       <meta property="og:locale " content="en_US ">
@@ -16,9 +20,9 @@
       <script src="https://cdn.tailwindcss.com"></script>
  </head>
  <!--body section-->
- <body class="bg-gray-100">
+ <body class="bg-scroll">
       <div class="flex items-center justify-center h-100">
-         <a href="index.html"><img src="Images/Asset 2@3x.png" class="w-10 h-14 justify-between items-center"  alt="Logo" class="Sitelogo"/></a> 
+         <a href="index.html"><img src="Asset 2@3x.png" class="w-10 h-17 justify-between items-center"  alt="Logo" class="Sitelogo"/></a> 
       </div>
       <header class="header" id="header">
          <nav class=" text-gray-800 py-2">
@@ -28,8 +32,8 @@
                <li><a href="projects.html" class="mx-4 text-lg">Projects</a></li>
                <li><a href ="Designservices.html" class="mx-4 text-lg">Services</a></li>
                <li><a href="Blog.html" class="mx-4 text-lg">Blog </a></li>
-               <li><a href=""><img src="Images/search.png"  width="30px" height="30px"/></a></li>
-               <li><a href="Account.html"><img src="Images/user-heart.svg" width="30px" height="30px"/></a></li>
+               <li><a href=""><img src="Icons/search.png" width="30px" height="30px"/></a></li>
+               <li><a href="Account.html"><img src="Icons/user-heart.svg" width="30px" height="30px"/></a></li>
             </ul>
          </nav>
     </header>
@@ -79,8 +83,9 @@
                   <div class="flex justify-between items-center">
                      <h3 class="font-bold text-lg">Landscaping</h3>
                   </div>
-                  <p class="mt-2 items-center">Landscape Service combines artistry and nature to craft captivating outdoor spaces. With a focus on quality, sustainability, and personalized design, we create enduring landscapes that reflect your unique style and vision.</p>
-                  <a href="Landscaping.html"class="ml-8 inline-flex items-center mt-4 bg-[#26877f] text-white font-bold py-2 px-4 rounded">Know more</a>
+                  <p class="mt-2">Landscape Service combines artistry and nature to craft captivating outdoor spaces. With a focus on quality, sustainability, and personalized design, we create enduring landscapes that reflect your unique style and vision.</p>
+
+                  <a href="Landscaping.html"class="ml-8 inline-flex items-center bg-[#26877f] text-white font-bold py-2 px-4 rounded">Know more</a>
                </div>
             </article>
             <article class="bg-[#EDEFEE] rounded-lg p-4 d-block w-100">
@@ -90,7 +95,7 @@
                      <h3 class="font-bold text-lg">Hardscaping</h3>
                   </div>
                   <p class="mt-2">Hardscaping Service adds architectural elegance to your outdoor spaces. Our expert craftsmanship and quality materials transform your patio, walkways, and retaining walls into stunning, functional features that elevate your landscape.</p>
-                  <a href="Hardscaping.html"class="ml-8 inline-flex items-center mt-4 bg-[#26877f] text-white font-bold py-2 px-4 rounded">Know more</a>
+                  <a href="Hardscaping.html"class="ml-8 inline-flex items-center bg-[#26877f] text-white font-bold py-2 px-4 rounded">Know more</a>
                </div>
             </article>
             <article class="bg-[#EDEFEE] rounded-lg p-4 d-block w-100">
@@ -100,189 +105,177 @@
                      <h3 class="font-bold text-lg">Commercials</h3>
                   </div>
                   <p class="mt-2">Commercial Landscaping Service enhances your business's curb appeal with precision and professionalism. From meticulous maintenance to impressive outdoor designs, we create inviting and polished commercial spaces that leave a lasting impression. </p>
-                  <a href="Commercial.html"class=" ml-8 inline-flex items-center mt-4 bg-[#26877f] text-white font-bold py-2 px-4 rounded">Know more</a>
+                  <a href="Commercial.html"class=" ml-8 inline-flex items-center bg-[#26877f] text-white font-bold py-2 px-4 rounded">Know more</a>
                </div>
             </article>
        </section>
     </div>
     <br>
+    <br>
+    <!--Project in Mind-->
+    <div class="mt-4">
+      <section class="quote">
+          <article>
+              <h2 class="font-bold text-xl font-Roboto text-gray-600 mb-2 mt-4">Have any project in mind?</h2>
+              <p class="font-Roboto text-gray-500 p-2">Schedule an appointment with us!</p>
+              <br>
+              <a class="mb-2" href="quote.html">
+                  <button class="bg-[#495E57] text-white font-bold py-2 px-4 rounded">Get a Quote</button>
+              </a>
+          </article>
+      </section>
+  </div>
+    <br>
+    <section id="projectstab" class="grid grid-cols-3">
+         <div class="justify-center">
+            <article class="justify-center border-2">
+               <img class="w-fit h-60 mb-4 ml-12 rounded" src="Images/project1.jpg" alt="ongoingprojects">
+               <h3 class="projectname">Rivera project</h3>
+               <br>
+               <p class="pl-4 pr-4"> This project is working towards the gardening side.</p>
+               <br>
+               <a href="Hardscaping.html" class="items-center ml-7 bg-[#26877f] text-white ml-17"><button>Explore more</button></a>
+            </article>
+         </div>
+         <div class="justify-center">
+            <article class="justify-center border-2">
+               <img class="px-7 mt-4" src="Images/project2.jpg" alt="ongoingprojects">
+               <h3 class="projectname">Shell project</h3>
+               <br>
+               <p class="pl-4 pr-4"> This project is working towards the gardening side.</p>
+               <br>
+               <a href="Landscaping.html" class="items-center bg-[#26877f] text-white ml-17"><button>Explore more</button></a>
+               <br>
+             <br>
+            </article>
+         </div>
+          <div class="justify-center">
+            <article class="justify-center border-2">
+              <img class="w-fit h-60 mb-4 ml-12 mt-8 rounded" src="Images/project3.jpg" alt="ongoingprojects" >
+              <h3 class="projectname">Sky scrapper Project</h3>
+              <br>
+              <p class="pl-4 pr-4">This project is working towards the gardening side.</p>
+              <br>
+              <a href="Commercial.html" class="items-center ml-7 bg-[#26877f] text-white ml-17"><button>Explore more</button></a>
+             <br>
+             <br>
+           </article>
+          </div>
+       </section>
+    </div>
+    <!--FAQs-->
+    <div id="Testimonials" class="Testimonials">
+         <section class="FAQ flex justify-center items-center mb-8 ">
+            <h2 class="font-Lato text-4xl text-[#26877f] text-center pt-8">Frequently Asked Questions</h2>
+        </section>  
+         <section class="grid md:grid-cols-3 gap-8">
+            <article class="faq-item ml-8">
+               <button class="faq-question bg-[#26877f] rounded">What services do you offer?</button>
+               <div class="faq-answer">We offer a variety of landscaping and hardscaping services...</div>
+            </article>   
+            <article class="faq-item ml-8">
+               <button class="faq-question bg-[#26877f] rounded">How can I book a service?</button>
+               <div class="faq-answer mb-4">You can book a service through our contact page...</div>
+            </article>      
+         </section>
+    </div>
     <br>
     
-    <div class="mt-4">
-       <section class="quote">
-          <article>
-             <h2 class="quote_subtitle"> Have any project in mind?</h2>
-             <p  class="quote_para">Schedule an appoinment with us!</p>
-             <br>
-             <a class="Quote_button" href="Signin.html">Request a quote</a>
-             <br>
-             <br>
-         </article>
-       </section>
-    </div>
-    <br>
-    <br>
-    <section class="projectstab">
-         <div class="Landscapetab">
-            <article class="ongoingprojects">
-               <h3 class="projectname">Rivera project</h3>
-               <img class="Riveraimg" src="Images/Riveriaproject.jpg" alt="ongoingprojects" width="250px", height="200px">
-               <button class="ongoingbutton">Explore more</button>
-            </article>
-         </div>
-         <div class="Landscapetab">
-            <article class="ongoingprojects">
-               <h3 class="projectname">Shell project</h3>
-               <img class="Shellimg" src="Images/she" alt="ongoingprojects" width="250px", height="200px">
-               <br>
-               <br>
-               <button class="ongoingbutton">Explore more</button>
-               <br>
-             <br>
-            </article>
-         </div>
-          <div class="Landscapetab">
-            <article class="ongoingprojects">
-               <h3 class="projectname">Gardening project</h3>
-              <img class="Gardeningimg" src="Images/Gardening project.jpg" alt="ongoingprojects" width="250px", height="200px">
-              <br>
-              <br>
-              <button class="ongoingbutton">Explore more</button>
-             <br>
-             <br>
-           </article>
+   <!--Testimonials section-->
+   <div id="Testimonials" class="Testimonials">
+      <section class="flex justify-center items-center mb-8">
+        <h3 class="font-Lato text-4xl text-[#26877f] text-center pt-8">Testimonials </h3>
+      </section>
+      <section class="grid md:grid-cols-3 gap-8">
+        <!-- Testmonial 1-->
+        <article class=" rounded-lg p-4  bg-gray-200">
+         <img class="w-fit h-60 mb-4 ml-12 mt-8 rounded" src="Images/Edward.jpg" alt="Edward" />
+         <div class="mt-4">
+               <div class="flex justify-between items-center">
+               <h3 class=" font-Lato text-left text-[#26877f] font-Lato mt-2 mt-2 font-bold">Edward</h3>
+               <h5 class="mt-2 ml-2">⭐⭐⭐⭐⭐</h5>
+               </div>
+               <p class="text-gray-500 font-Lato mt-2 ">Lucky Shrub Landscaping completely transformed our backyard! We had a neglected space with overgrown weeds and patchy grass. The team came in, listened to our vision of a relaxing oasis, and created a stunning patio with beautiful flower beds and a fire pit. They were professional, efficient, and always cleaned up after themselves. We couldn't be happier with the results and highly recommend Lucky Shrub to anyone looking for top-notch landscaping services.</p>
           </div>
-       </section>
+        </article>
+        <!-- Testimonial 2 -->
+        <article class=" rounded-lg p-4  bg-gray-300">
+          
+          <img class="w-fit h-60 mb-4 ml-12 mt-8 rounded" src="Images/Trinet.jpg" alt="Trinet"/>
+          <div class="mt-4">
+            <div class="flex justify-between items-center">
+              <h3 class=" font-Lato text-[#26877f] text-left  font-Lato mt-2  mt-2 font-bold">Robin Mathews</h3>
+              <h5 class="mt-2 ml-2">⭐⭐⭐⭐</h5>
+            </div>
+            <p class="text-gray-500 font-Lato mt-2">I'm a busy professional with limited time for yard work. Lucky Shrub has been a lifesaver! They handle everything from regular lawn maintenance to seasonal planting and trimming. Their crew is knowledgeable and passionate about landscaping. They always explain what they're doing and offer expert advice on plant selection and care. The communication is fantastic, and they're always responsive to my requests. Lucky Shrub takes the stress out of maintaining a beautiful yard.</p>
+          </div>
+        </article>
+        <!-- Testimonial 3 -->
+        <article class=" justify-center rounded p-4 bg-gray-300">
+         <img class="w-fit h-60 mb-4 ml-12 mt-8 rounded" src="Images/Stacy.jpg" alt="Stacy">
+          <div class="mt-4">
+            <div class="flex justify-between items-center">
+              <h3 class=" font-Lato text-left text-[#26877f] font-Lato mt-2  mt-2 font-bold">Sarah</h3>
+              <h5 class="mt-2 ml-2">⭐⭐⭐⭐⭐</h5>
+            </div>
+            <p class="text-gray-500font-Lato mt-2">We were on a tight budget for our landscaping project, but Lucky Shrub worked with us to create a plan that fit our needs. They were upfront about costs and didn't try to upsell us on unnecessary services. The work was completed on time and on budget, which is a rarity these days. They're also incredibly reliable, and we can always count on them to show up and do a great job. We wouldn't hesitate to recommend Lucky Shrub Landscaping to our friends and family.</p>
+          </div>
+        </article>
+      </section>
     </div>
-    <section class="FAQ mt-8">
-         <h2>Frequently Asked Questions</h2>
-         <div class="faq-item">
-            <button class="faq-question">What services do you offer?</button>
-            <div class="faq-answer">We offer a variety of landscaping and hardscaping services...</div>
-         </div>
-         <div class="faq-item">
-            <button class="faq-question">How can I book a service?</button>
-            <div class="faq-answer">You can book a service through our contact page...</div>
-         </div>
-    </section>  
-    <div id="Testimonials" class="Testimonials">
-       <section class="flex justify-center items-center mb-8">
-          <h2 class="testimonial_title">Testimonials</h2>
-       </div>
+   <br>
+      <!--Why choose us section-->
+     <div id="whychooseus" class="whychooseus">
+         <section class="flex justify-center items-center mb-8 gap-2">
+            <h3 class="font-markazi text-4xl text-[#26877f] text-center pt-8">Why Choose Us </h3>
+         </section>
+       <section class="grid md:grid-cols-3 gap-8 ml-4">
+             <article class="px-5 border-2 border-[#26877f] border-style: solid ">
+                <img class="w-14 h-14 rounded ml-5" src="Icons/customer-review.png" alt="Experience" />
+                <br>
+                <h4 class="font-Roboto font-bold text-lg text-[#26877f] mb-8 text-center">Expertise and Experience</h4>
+                <p class="-mt-7 pl-20 text-gray-500">With decades of experience in thelandscaping industry, our team has a deep understanding of the principles of horticulture,design and construction.</p>
+              </article>           
+              <article class="px-5 border-2 border-[#26877f] border-style: solid ">
+                 <img class="w-14 h-14 rounded ml-5" src="Icons/worker.png" alt="Workmanship" />
+                 <br>
+                 <h4 class="font-Roboto font-bold text-lg text-[#26877f] mb-8 text-center">Quality Workmanship</h4>
+                <p class="-mt-7 pl-20 text-gray-500">Our commitment to quality workmanship ensures that every landscaping project is executed to perfection, delivering exceptional results that stand the test of time.</p>
+              </article>
+              <article class="px-5 border-2 border-[#26877f] border-style: solid ">
+                  <img class="w-14 h-14 rounded ml-5" src="Icons/Customize.png" alt="Customize"/>  
+                  <br>
+                  <h4 class="font-Roboto font-bold text-lg text-[#26877f] mb-8 text-center">Customize solutions</h4>
+                  <p class="-mt-7 pl-20 text-gray-500">At Lucky Shrub, we understand that every outdoor space is unique, and that's why we offer tailored and customized solutions to bring your landscaping vision to life.</p>
+             </article>
+       </section>
        <br>
-       <section class="items-center ps-8 pl-">
-           <div>
-            <article class="Testimonial">
-               <div class="Review">
-                   <img class="card-img" src="Testimonials/Edward.jpg" alt="Testimonials_Edwardl"width="50px", height="100px">
-                  <h4 class="Review_title">Edward</h4>
-                  <p class="Review_text"> Lucky Shrub's commercial landscaping services have enhanced the curb appeal of my business. Their attention to detail and professionalism are unmatched. </p>
-                </div>
-             </article>
-           </div>
-           <div>
-             <article class="Testimonial">
-                <div class="Review">
-                   <img class="card-img" src="Testimonials/William.jpg" alt="Testimonials_William"width="50px", height="100px">
-                   <h4 class="Review_title">William</h4>
-                   <p class="Review_text"> Lucky Shrub's hardscaping expertise turned our outdoor space into a masterpiece. Their precision and craftsmanship exceeded our expectations. </p>
-               </div>
-             </article>
-           </div>
-           <div>
-             <article class="Testimonial">
-                <div class="Review">
-                   <img class="card-img-top" src="ErinBrown.jpg" alt="Testimonials_Nikki"width="100px", height="100px">
-                   <h4 class="Review_title">Nikki</h4>
-                   <p class="Review_text"> Lucky Shrub's irrigation system turned my garden into a lush oasis. It's not just efficient; it's a game-changer for maintaining a beautiful landscape. </p>
-               </div>
-             </article>
-           </div>
-       </section>
-       <section class="Testimonials">
-          <div>
-            <article class="Testimonial">
-               <div class="Review">
-                  <img class="card-img-top" src="SharminJalali.jpg" alt="Testimonials_SharminJalali"width="100px", height="100px">
-                  <h4 class="Review_title">Sharmin Jalali</h4>
-                  <p class="Review_text">The outdoor lighting installation by Lucky Shrub has completely transformed my evenings. My garden now looks enchanting after sunset.</p>
-                </div>
-            </article>
-          </div>
-          <div>
-            <article class="Testimonial" >
-               <div class="Review">
-                  <img class="card-img-top" src="Trinet.jpg" alt="Testimonials_Sarah"width="100px", height="100px">
-                   <h4 class="Review_title">Trinet</h4>
-                  <p class="Review_text">I rely on Lucky Shrub's seasonal maintenance to keep my landscape pristine year-round. They never disappoint with their attention to detail.</p>
-               </div>
-             </article>
-          </div>
-          <div>
-             <article class="Testimonial">
-                <div class="Review">
-                   <img class="card-img-top" src="JoeNorjan.jpg" alt="Testimonials_Joe"width="100px",height="100px">
-                   <h4 class="Review_title">Joe Norjan</h4>
-                   <p class="Review_text">The water feature Lucky Shrub installed adds a soothing touch to my garden. It's become the focal point of my outdoor space.Its a really a creative project.</p>
-                </div>
-             </article>
-          </div>
-       </section>
-    </div>
-    <div>
-       <div>
-           <h2 class="Whychoose_title">Why Choose Us</h2>
-       </div>
-       <section class = "whychooseus-section">
-          <div id="Expertise" class="px-5 border-2 border-[#26877f] border-style: solid display: inline-flex">
-             <article class="first_section">
-                <img class="./Icons/customer-review" src="top-seller.png" alt="Experience_img" width="70px", height="80px">
-                <h4 class="font-Roboto font-bold text-lg text-[#26877f]">Expertise and Experience</h4>
-                <p class="why_para">With decades of experience in thelandscaping industry, our team has a deep understanding of the principles of horticulture,design and construction.</p>
-              </article>
-           </div>
-           <div class="quality">
-              <article class="second_section" >
-                 <img class="Quality_img" src="shield.png" alt="Workmanship_img"width="60px", height="60px">
-                 <h4 class="Whytitle">Quality Workmanship</h4>
-                <p class="why_para">Our commitment to quality workmanship ensures that every landscaping project is executed to perfection, delivering exceptional results that stand the test of time.</p>
-              </article>
-          </div>
-          <div class="solutions">
-            <article class="third_section">
-               <img class="Customize_img" src="customize.png" alt="Workmanship_img" width="60px", height="60px">
-               <h4 class="Whytitle">Customize solutions</h4>
-               <p class="why_para">At Lucky Shrub, we understand that every outdoor space is unique, and that's why we offer tailored and customized solutions to bring your landscaping vision to life.</p>
+       <section id= "whychooseus-section" class = "grid grid-cols-3 justify-center ml-4 gap-8">
+          <article class="px-5 border-2 border-[#26877f] border-style: solid">
+               <img class="w-16 h-16 rounded items-center" src="Icons/diversity.png" alt="services"/>
+               <br>
+               <h4 class="font-Roboto font-bold text-lg text-[#26877f] mb-6">Diverse services</h4>
+               <p class="-mt-7 pl-20 text-gray-500">Lucky shrub specilizes in crafting customized landscaping solutions, tailored to each clients's unique vision and outdoor space.</p>
+          </article>  
+               
+            <article class="px-5 border-2 border-[#26877f] border-style: solid ">
+               <img class="w-16 h-16" src="Icons/on-time.png" alt="projectdelivery" />
+               <br>
+               <h4 class="font-Roboto font-bold text-lg text-[#26877f] mb-6">Timely Project Delivery</h4>
+               <p class="-mt-7 pl-20 text-gray-500">We take pride in our track record of timely project delivery, ensuring your outdoor space transformation is executed efficiently and as promised.</p>
            </article>
-          </div>
-       </section>
-       <section id= "whychooseus-section" class = "grid grid-cols-3">
-          <div class="Diverse">
-             <article class="fourth_section">
-                <img class="Ima" src="solution.png" alt="Expertise_img" width="60px", height="60px">
-                <h4 class="Whytitle">Diverse services</h4>
-                <p class="why_para">Lucky shrub specilizes in crafting customized landscaping solutions, tailored to each clients's unique vision and outdoor space.</p>
-             </article>
-          </div>
-          <div class="Timely">
-              <article class="fifth_section">
-                 <img class="Timely_img" src="time.png" alt="Workmanship_img" width="60px", height="60px">
-                 <h4 class="Whytitle">Timely Project Delivery</h4>
-                 <p class="why_para">We take pride in our track record of timely project delivery, ensuring your outdoor space transformation is executed efficiently and as promised.</p>
-              </article>
-          </div>
-          <div class="Attention">
-             <article class="sixth_section">
-                <img class="Attention_img" src="Images/profile.png" alt="Workmanship_img" width="60px", height="60px">
-                <h4 class="Whytitle">Attention to detail</h4>
-                <p class="why_para">We take pride in our track record of timely project delivery, ensuring your outdoor space transformation is executed efficiently and as promised.</p>
-             </article>
-          </div>
+           <article class="px-5 border-2 border-[#26877f] border-style: solid ">
+               <img class="w-16 h-16" src="Icons/project.png" alt="Attentiontodetail" /> 
+               <br>
+               <h4 class="font-Roboto font-bold text-lg text-[#26877f] mb-6">Attention to detail</h4>
+               <p class="-mt-7 pl-20 text-gray-500">We take pride in our track record of timely project delivery, ensuring your outdoor space transformation is executed efficiently and as promised.</p>
+          </article>
        </section>
      </div>
-      <section class="appointment_section  mt-8">
-         <h2 class="text-[#26877f] text-2xl font-bold font-Roboto pl-20">Book an Appointment</h2>
-         <article>
+     <!--Booking Appointment-->
+      <section class="appointment_section  justify-center mt-8">
+         <h2 class="text-[#26877f] text-2xl font-bold font-Roboto pl-20 text-center">Book an Appointment</h2>
+         <article class="text-center">
             <form class="font-bold text-md text-[#26877f]">
                <label for="appointment-date"><span>Date </span></label>
                <input type="date" id="appointment-date" name="appointment-date" required>
@@ -293,45 +286,84 @@
             </form>
          </article>
      </section>
-     
-      <footer>
-         <section class="footer">
-            <article>
-                  <img src="Images/Asset 2@3x.png" class="Logo" width="50px" height="80px" />
-               </article>
-            <div>
-               <h1 class="footer_sitename">Lucky Shrub</h1>
+     <!--Newsletter Section-->
+     <section id="Newsletter" class="bg-[#26877f] py-16">
+      <div class=" mx-auto px-6">
+        <div class="text-center text-white mb-8">
+          <h2 class="text-3xl font-bold text-white">Stay Updated</h2>
+          <p class="text-lg text-white">Subscribe to our newsletter for the latest adventures and travel tips</p>
+        </div>
+        <div class="flex justify-center">
+          <form class="w-full max-w-md">
+            <div class="flex items-center border-b border-b-2 border-white py-2">
+              <input class="appearance-none bg-transparent border-none w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="email" placeholder="Your email address" aria-label="Email">
+              <button class="bg-white text-gray-600 mx-6 py-2 px-4 rounded hover:bg-gray-100" type="submit">Subscribe</button>
             </div>
-            <article>
-                  <h3> Navigation </h3>
-                  <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="Aboutus.html">Aboutus</a></li>
-                        <li><a href="Designservices.html">Services</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="Blog.html">Blog</a></li>
-                        <li><a href="contactus.html">Contactus</a></li>
-                  </ul>
-               </article>
-               <article>
-                  <h3> Social Media Links </h3>
-                  <ul class="social_media">
-                        <li><a href="www.twitter.com"><img src="twitter-color-svgrepo-com.svg"width="80px" height="80px"> </a></li>
-                        <li><a href="www.linkedin.com"><img src="linkedin-svgrepo-com.svg"width="80px" height="80px"> </a></li>
-                        <li><a href="www.facebook.com"><img src="facebook-svgrepo-com.svg"width="80px" height="80px"></a></li>
-                  </ul>
-                  <ul class="contact">
-                        <li><a href="#"><img src="phone-call.png" width="20px" height="20px" alt="phonecall"/>+16-345-45656</a></li>
-                        <li><a href="#"><img src="email.png" width="20px" height="20px" alt="email"/>luckyshrub@gmail.com</a></li>
-                  </ul>
-            </article>
-         </section>
-      </footer>
+          </form>
+        </div>
+      </div>
+    </section>
+     <!--Footer Section-->
+     <footer class="bg-[#B0EED7] text-[#26877f] py-8">
+       <div id="footer" class=" mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="btmimg" class="mb-6 md:mb-0">
+               <img src="Asset 2@3x.png" class="w-12 h-17" alt="Logo">
+            </div>
+            <br>
+            <div class="mb-6 md:mb-0">
+               <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-[#26877f]">
+                  <li><a href="index.html" class="hover:font-bold">Home</a></li>
+                  <li><a href="About.html" class="hover:font-bold">About</a></li>
+                  <li><a href="menu.html" class="hover:font-bold">Services</a></li>
+                  <li><a href="Reservation.html" class="hover:font-bold">Projects</a></li>
+                  <li><a href="orderonline.html" class="hover:font-bold">Blog</a></li>
+                  <li><a href="LogIn.html" class="hover:font-bold">LogIn</a></li>
+                  <li><a href="tel:0430590800" class="hover:font-bold">Phone</a></li>
+                  <li><a href="mailto:sshammim@gmail.com" class="hover:font-bold">Email</a></li>
+               </ul>
+            </div>
+       </div>
+    </footer>
+      <div class="text-center mt-6 text-gray-500">
+        <p>&copy; Lucky Shrub</p>
+        <p>All rights reserved</p>
+      </div>
       <script>
          document.getElementById('menuBtn').addEventListener('click', function(){
          const sidebar =document.getElementById('sidebar');
          sidebar.classList.toggle('hidden');
          });
       </script>
+      <script>
+      document.getElementById('newsletterForm').addEventListener('submit', function(event) {
+         event.preventDefault();
+         
+         const emailInput = document.getElementById('emailInput').value;
+       
+         if (emailInput) {
+           fetch('https://your-server-endpoint.com/subscribe', {
+             method: 'POST',
+             headers: {
+               'Content-Type': 'application/json'
+             },
+             body: JSON.stringify({ email: emailInput })
+           })
+           .then(response => {
+             if (response.ok) {
+               alert('Thank you for subscribing!');
+               document.getElementById('newsletterForm').reset();
+             } else {
+               alert('There was an issue with your subscription. Please try again.');
+             }
+           })
+           .catch(error => {
+             console.error('Error:', error);
+             alert('There was an error processing your request. Please try again.');
+           });
+         } else {
+           alert('Please enter a valid email address.');
+         }
+       });
+    </script>   
   </body>
 </html>

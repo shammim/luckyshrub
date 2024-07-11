@@ -408,41 +408,21 @@ article ul {
   font-family: 'Playfair Display', serif;
   font-weight: 300;
 }
-.first_section,.second_section,.third_section, fourth_section {
-  display: inline-flexbox;
-  flex: 1;
-}
+
 .Whychoose_title{
   font-family: 'Playfair Display' sans-serif;
   font-size: 34px;
   font-weight: bold;
   color: #26877f;
 }
-.Whytitle{
-  font-family: 'Roboto' sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  color:#26877f;
-  margin-top: -70px;
-  padding-bottom: 20px;
-}
+
 .title_service{
   color: #26877f;
   font-family: 'Playfair Display' sans-serif;
   font-size: 34px;
   font-weight: bold;
 }
-.Experience,.quality,.solutions, .Diverse,.Timely,.Attention{
-  padding-left: 20px;
-  border: #26877f;
-  border-width: 1px;
-  border-style: solid;
-  display: inline;
-}
-.why_para{
-  margin-top:-30px;
-  padding-left: 80px;
-}
+
 .Experience_img,.Quality_img,.Customize_img, .Diverse_img,.Timely_img,.Attention_img{
   padding-top: 40px;
 }
@@ -513,10 +493,7 @@ form{
 background-color: #c9eec9;
 color: #26877f;
 }
-.card-img-top{
-  padding-left: 50px;
-  padding-top: 30px;
-}
+
 .card-img{
   margin-left: 100px;
   padding-top: 30px;

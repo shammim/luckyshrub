@@ -785,6 +785,9 @@ footer div{
   .breadcrumb{
     display: none;
   }
+  .landscapingservices{
+    display: inline-flex;
+  }
   .sidebar {
     position: relative;
     top: 0;

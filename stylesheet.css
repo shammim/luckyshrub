@@ -396,13 +396,10 @@ article ul {
  color: #fff;
 }
 .quote{
-  background-color:#B0EED7 ;
+  background-color:#dfdbdb ;
   padding-bottom: 30px;
 }
-.quote_subtitle{
-  font-family: 'Playfair Display', serif;
-  font-weight: 300;
-}
+
 
 .Whychoose_title{
   font-family: 'Playfair Display' sans-serif;
@@ -480,12 +477,13 @@ form{
   color: #26877f;
 }
 .quote a {
+  border-radius: 10px;
   border-style: solid;
   color: white;
   background-color: #26877f;
 }
 .quote a:hover {
-background-color: #c9eec9;
+background-color: rgb(124, 199, 193);
 color: #26877f;
 }
 

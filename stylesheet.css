@@ -830,7 +830,9 @@ footer div{
 
   .menutype div{
     flex-direction: column;
-    gap: 1rem;
-    
+    gap: 1rem; 
+  }
+  .footer{
+    display:none;
   }
 }

@@ -33,9 +33,9 @@
                <li class="relative group">
                   <a href="javascript:void(0)" class="mx-4 text-lg">Projects</a>
                   <ul class="absolute hidden group-hover:block bg-white  rounded-lg mt-1">
-                      <li><a href="Landscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Landscape Projects</a></li>
-                      <li><a href="Hardscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Hardscape Projects</a></li>
-                      <li><a href="Commercial.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Commercial Projects</a></li>
+                      <li><a href="Landscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Landscape </a></li>
+                      <li><a href="Hardscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Hardscape </a></li>
+                      <li><a href="Commercial.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Commercial</a></li>
                   </ul>
               </li>
                <li class="relative group">
@@ -52,7 +52,7 @@
             </ul>
          </nav>
      </header>
-     <button class="toggle-button bg-[#26877f]  py-2 px-4 rounded" id="menuBtn"> <img src="Icons/menu.png" class="w-8 h-8"/></button>
+     <button class="toggle-button bg-[#495E57] text-[#26877f] text-lg mb-2 font-bold py-2 px-4 rounded" id="menuBtn"> <img src="Icons/menu.png" class="w-8 h-8"/></button>
         <div class="hidden" id="sidebar">
             <nav>
                 <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-[#26877f]">
@@ -68,12 +68,14 @@
      <!---breadcrumb section-->
      <main class="breadcrumb">
          <ul>
-            <li> <a href="index.html">Home</a>  </li>
+            <li> <a href="index.html">Home</a> </li>
+            <li><a href="Designservices.html">Services</a></li>
+            <li><a href="Hardscaping.html">Landscaping service </a></li>
          </ul>
      </main>
      <br>
      <!---Hero section-->
-     <section id="Hero" class="bg-[url('./Images/gardening1.jpg')] bg-cover bg-center w-full h-screen rounded-xl mt-6 mb-4 pb-7 flex items-center justify-center">
+     <section id="Hero" class="bg-[url('./Images/gardening1.jpg')] bg-cover bg-center w-full h-screen rounded-xl mt-8 mb-4 pb-7 flex items-center justify-center">
          <article class="text-center bg-[#f8fafc] bg-opacity-75 p-8 rounded-lg">
             <h1 class="font-serif text-4xl font-bold mt-4 text-[#26877f]">Landscaping Service</h1>
             <h3 class="font-Roboto text-lg text-gray-800 mt-2">Work with us</h3>
@@ -84,14 +86,15 @@
      <!--Landscaping Service Detail -->
      <div id="Landscapeservice" class="landscapeservice">
         <section class="py-12 bg-gray-100">
-            <div class="container mx-auto mt-16 items-center">
+            <div class="container mx-auto mt-16 grid-cols-1 items-center">
                 <!-- Headline and Subheading -->
                 <div class="text-center mb-12">
-                    <h1 class="mt-4 text-[#26877f] text-3xl font-bold mb-4">Landscaping Services</h1>
+                    <h1 class="mt-4 text-[#26877f] font-PlayfairDisplay text-3xl font-bold mb-7 mt-4">Landscaping Services</h1>
+                    <br>
                     <p class="text-gray-600 mt-4">We design, install, and maintain beautiful landscapes for residential and commercial properties.</p>
                 </div>
                 <!-- Service Categories -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3  gap-8">
                     <!-- Softscaping -->
                     <div class="bg-white p-6 rounded-lg shadow-lg">
                         <h2 class="text-xl font-bold mb-4 text-[#26877f]">Softscaping</h2>
@@ -145,13 +148,13 @@
      
      <!--landscaping service how it work-->
      <section class="py-12">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-12">
-                <h1 class="text-4xl font-bold text-[#26877f]">Our Process</h1>
+        <div class="container mx-auto px-6 grid-cols-1">
+            <div class="text-center mb-12 grid-cols-1">
+                <h1 class="text-[#26877f] font-PlayfairDisplay text-3xl font-bold mb-7 mt-4 text-3xl">Our Process</h1>
                 <p class="text-gray-600 mt-4">From initial consultation to project completion and maintenance, we guide you through every step of the way.</p>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+            <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 gap-8">
                 <!-- Free Consultation -->
                 <article class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
                     <img src="Images/Free consultation.jpg" alt="Free Consultation" class="w-full h-32 object-cover mb-4 rounded">
@@ -197,8 +200,8 @@
 
     <!--Landscaping projects-->
      <div class="landscaping_projects mt-8">
-            <h2 class="text-[#26877f] text-3xl mt-2 mb-4 font-bold">Landscaping Projects</h2>
-            <section id ="projects" class="ml-4 mr-4">
+            <h2 class="text-[#26877f] font-PlayfairDisplay text-3xl font-bold mb-7 mt-4">Landscaping Projects</h2>
+            <section id ="projects" class="grid  md:grid-cols-3 lg:grid-cols-4 xl:grid-col-4 ml-4 mr-4">
                 <article class="projectone text-center bg-gray-200 p-2">
                     <img src="Images/Landscaping.jpg" alt="Blogpost_image" class="serviceimage w-full h-100" />
                     <br>
@@ -230,9 +233,9 @@
             </section>
      </div>
       <!--Blog-->
-     <div class="landscaping_topics mt-8">
-            <h2 class="text-[#26877f] font-bold font-Roboto text-3xl mt-2 mb-4">Blog</h2>
-         <section class="Blog_topics mt-4 ">
+     <div class="blog mt-8">
+            <h2 class="text-[#26877f] font-PlayfairDisplay text-3xl font-bold mb-7 mt-4">Blog</h2>
+         <section class="grid md:grid-cols-3 lg:grid-cols-4 xl:grid-col-4 gap-8">
                 <article class="Topic_one text-center p-2">
                     <img src="Images/Backyard24.jpg"  alt="Blogpost_image" class="serviceimage w-full h-100" href="Blog.html" />
                     <br>
@@ -252,7 +255,7 @@
                     <p class="font-Lato">Uncover the key factors to consider when selecting materials that not only enhance the aesthetics of your landscape but also ensure longevity and sustainability.</p>
                     <a href="Blog.html" class="mt-4 inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700">Read more</a>
                 </article>
-                <article class="Topic_four text-center bg-gray-200 p-2">
+                <article class="Topic_four text-center p-2">
                     <img src="Images/Company.jpg"  alt="Blogpost_image" class="serviceimage w-full h-100" href="Blog.html" />
                     <h3 class="text-gray-800 font-bold mt-4">Innovative Hardscaping Techniques: Transforming Your Yard</h3>
                     <p class="font-Lato">Explore cutting-edge hardscaping techniques that elevate your outdoor spaces, from contemporary design trends to timeless classics.</p>
@@ -288,44 +291,28 @@
        <div id="responseMessage" class="mt-4 hidden p-4 bg-green-100 text-green-700 rounded"></div>
     </div>
    </div>
- <!--Newsletter Section-->
- <section id="Newsletter" class="bg-[#26877f] py-16">
-  <div class=" mx-auto px-6">
-    <div class="text-center text-white mb-8">
-      <h2 class="text-3xl font-bold text-white">Stay Updated</h2>
-      <p class="text-lg text-white">Subscribe to our newsletter for the latest adventures and travel tips</p>
-    </div>
-    <div class="flex justify-center">
-      <form class="w-full max-w-md">
-        <div class="flex items-center border-b border-b-2 border-white py-2">
-          <input class="appearance-none bg-transparent border-none w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="email" placeholder="Your email address" aria-label="Email">
-          <button class="bg-white text-gray-600 mx-6 py-2 px-4 rounded" type="submit">Subscribe</button>
-        </div>
-      </form>
-    </div>
-  </div>
- </section>
-
-<!--Footer Section-->
-<footer class="bg-[#B0EED7] text-[#26877f] py-8">
-    <div id="footer" class=" mx-auto flex flex-col md:flex-row justify-between items-center">
-         <div class="btmimg" class="mb-6 md:mb-0">
-            <img src="Asset 2@3x.png" class="w-12 h-17" alt="Logo">
-         </div>
-         <br>
-         <div class="mb-6 md:mb-0">
-            <ul class="footer flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-[#26877f]">
-                <li><a href="index.html" class="hover:font-bold">Home</a></li>
-                <li><a href="About.html" class="hover:font-bold">About</a></li>
-                <li><a href="services.html" class="hover:font-bold">Services</a></li>
-                <li><a href="projects.html" class="hover:font-bold">Projects</a></li>
-                <li><a href="Blog.html" class="hover:font-bold">Blog</a></li>
-                <li><a href="tel:0430590800" class="hover:font-bold">Phone</a></li>
-                <li><a href="mailto:sshammim@gmail.com" class="hover:font-bold">Email</a></li>
-            </ul>
-         </div>
-    </div>
- </footer>
+  <!--Footer Section-->
+    <footer class="bg-[#B0EED7] text-[#26877f] py-8">
+        <div id="footer" class=" mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="btmimg" class="mb-6 md:mb-0">
+                <a href="index.html"><img src="Asset 2@3x.png" class="w-20 h-17 justify-between items-center"  alt="Logo" class="Sitelogo"/></a>
+            </div>
+            <br>
+           <div class="flex justify-center">
+                <h2 class="text-3xl font-bold text-[#26877f]">Stay Updated</h2>
+              <form class="w-full max-w-md">
+                    <div class="flex items-center border-b border-b-2 border-white py-2">
+                        <input class="appearance-none bg-transparent border-none w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="email" placeholder="Your email address" aria-label="Email">
+                        <button class="bg-white text-gray-600 mx-6 py-2 px-4 rounded hover:bg-gray-100" type="submit">Subscribe</button>
+                   </div>
+             </form>
+          </div>
+            <div class="contact" class="mb-6 md:mb-0">
+                <a href="tel:0430590800" class="hover:font-bold">+61- 0430590800</a>
+                <a href="mailto:sshammim@gmail.com" class="hover:font-bold">sshammim@gmail.com</a>
+            </div>
+      </div>
+   </footer>
    <div class="text-center mt-6 text-gray-500">
      <p>&copy; Lucky Shrub</p>
      <p>All rights reserved</p>

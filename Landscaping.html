@@ -19,201 +19,345 @@
       <link rel="stylesheet " href="stylesheet.css" />
       <script src="https://cdn.tailwindcss.com"></script>
  </head>
- 
+ <!--body section-->
  <body class="bg-scroll">
-        <div class="flex items-center justify-center h-100">
-            <a href="index.html"><img src="Asset 2@3x.png" class="w-10 h-17 justify-between items-center"  alt="Logo" class="Sitelogo"/></a> 
-        </div>
-        <header class="header" id="header">
-            <nav class=" text-gray-800 py-2">
-            <ul class="flex justify-between items-center">
-                <li><a  href="index.html" class="mx-4 text-lg" >Home</a></li>
-                <li><a href="Aboutus.html" class="mx-4 text-lg">About</a></li>
-                <li class="relative group">
-                    <a href="javascript:void(0)" class="mx-4 text-lg">Projects</a>
-                    <ul class="absolute hidden group-hover:block bg-white shadow-md rounded-lg mt-1">
-                        <li><a href="Landscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Landscape Projects</a></li>
-                        <li><a href="Hardscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Hardscape Projects</a></li>
-                        <li><a href="Commercial.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Commercial Projects</a></li>
-                    </ul>
-                </li>
-                 <li class="relative group">
-                    <a href="javascript:void(0)" class="mx-4 text-lg">Services</a>
-                    <ul class="absolute hidden group-hover:block bg-white shadow-md rounded-lg mt-1">
-                        <li><a href="Landscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Landscaping</a></li>
-                        <li><a href="Hardscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Hardscaping</a></li>
-                        <li><a href="Commercial.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Commercial</a></li>
-                    </ul>
-                </li>
-                <li><a href="Blog.html" class="mx-4 text-lg">Blog </a></li>
-                <li><a href=""><img src="Icons/search.png" width="30px" height="30px"/></a></li>
-                <li><a href="Account.html"><img src="Icons/user-heart.svg" width="30px" height="30px"/></a></li>
+      <div class="flex items-center justify-center h-100">
+         <a href="index.html"><img src="Asset 2@3x.png" class="w-10 h-17 justify-between items-center"  alt="Logo" class="Sitelogo"/></a> 
+      </div>
+      <header class="header" id="header">
+         <nav class="text-gray-800 py-2">
+          <ul class="flex justify-between items-center">
+               <li><a  href="index.html" class=" mx-4 text-lg" >Home</a></li>
+               <li><a href="Aboutus.html" class="mx-4 text-lg">About</a></li>
+               
+               <li class="relative group">
+                  <a href="javascript:void(0)" class="mx-4 text-lg">Projects</a>
+                  <ul class="absolute hidden group-hover:block bg-white  rounded-lg mt-1">
+                      <li><a href="Landscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Landscape </a></li>
+                      <li><a href="Hardscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Hardscape </a></li>
+                      <li><a href="Commercial.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Commercial</a></li>
+                  </ul>
+              </li>
+               <li class="relative group">
+                  <a href="services.html" class="active bg-[#26877f] text-white text-lg">Services</a>
+                  <ul class="absolute hidden group-hover:block bg-gary-100 rounded-lg mt-1">
+                      <li><a href="Landscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Landscaping</a></li>
+                      <li><a href="Hardscaping.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Hardscaping</a></li>
+                      <li><a href="Commercial.html" class="block px-6 py-2 text-[#26877f] hover:bg-gray-200">Commercial</a></li>
+                  </ul>
+              </li>
+               <li><a href="Blog.html" class="mx-4 text-lg">Blog </a></li>
+               <li><a href=""><img src="Icons/search.png" width="30px" height="30px"/></a></li>
+               <li><a href="Account.html"><img src="Icons/user-heart.svg" width="30px" height="30px"/></a></li>
             </ul>
-            </nav>
-       </header>
-        <button class="toggle-button bg-[#495E57] text-gray-900 font-bold py-2 px-4 rounded" id="menuBtn"> <img src="Images/menu.png" class="w-8 h-8"/></button>
+         </nav>
+     </header>
+     <button class="toggle-button bg-[#495E57] text-[#26877f] text-lg mb-2 font-bold py-2 px-4 rounded" id="menuBtn"> <img src="Icons/menu.png" class="w-8 h-8"/></button>
         <div class="hidden" id="sidebar">
             <nav>
-                <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-[#495E57]">
-                    <li><a class="active text-[#495E57] mx-4" href="index.html">Home</a></li>
-                    <li><a class="text-[#495E57] hover:underline mx-4" href="About.html">About</a></li>
-                    <li><a class="text-[#495E57] hover:underline mx-4" href="Menu.html">Projects</a></li>
-                    <li><a class="text-[#495E57] hover:underline mx-4" href="Reservation.html">Services</a></li>
-                    <li><a class="text-[#495E57] hover:underline mx-4" href="orderonline.html">Blog</a></li>
-                    <li><a class="text-[#495E57] hover:underline mx-4" href="search.html"><img src="Images/search.png"  width="20px" height="20px"/></a></li>
-                    <li><a class="text-[#495E57] hover:underline mx-4" href="Account.html"><img src="Images/user-heart.svg" width="30px" height="30px"/></a></li>
-              </ul>
-         </nav>
-      </div>
-      <br>
-        <!--Breadcrumb-->
-        <main class="breadcrumb">
-            <ul><li> <a href="index.html">Home</a>  </li></ul>
-        </main>
-         <br>
-   
-        <section class="landscaping_section">
-            <article class="landscaping-section">
-                <h1 class="Landscaping_title"><b>Landscaping</b></h1>
-            </article>
+                <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-[#26877f]">
+                    <li><a class="active text-[#26877f] mx-4" href="index.html">Home</a></li>
+                    <li><a class="text-[#26877f] hover:underline mx-4" href="About.html">About</a></li>
+                    <li><a class="text-[#26877f] hover:underline mx-4" href="projects.html">Projects</a></li>
+                    <li><a class="text-[#26877f] hover:underline mx-4" href="services.html">Services</a></li>
+                    <li><a class="text-[#26877f] hover:underline mx-4" href="Blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+       <br>
+     <!---breadcrumb section-->
+     <main class="breadcrumb">
+         <ul>
+            <li> <a href="index.html">Home</a> </li>
+            <li><a href="Designservices.html">Services</a></li>
+            <li><a href="Hardscaping.html">Landscaping service </a></li>
+         </ul>
+     </main>
+     <br>
+     <!---Hero section-->
+     <section id="Hero" class="bg-[url('./Images/gardening1.jpg')] bg-cover bg-center w-full h-screen rounded-xl mt-8 mb-4 pb-7 flex items-center justify-center">
+         <article class="text-center bg-[#f8fafc] bg-opacity-75 p-8 rounded-lg">
+            <h1 class="font-serif text-4xl font-bold mt-4 text-[#26877f]">Landscaping Service</h1>
+            <h3 class="font-Roboto text-lg text-gray-800 mt-2">Work with us</h3>
+            <p class="font-Lato text-gray-700 mt-2">Let's our designers help design your Landscape</p>
+            <a href="quote.html" class="mt-4 inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700">Get a Free Quote</a>
+         </article>
+     </section>
+     <!--Landscaping Service Detail -->
+     <div id="Landscapeservice" class="landscapeservice ">
+        <section class="py-8 bg-gray-100">
+            <div class="container mx-auto mt-16 grid-cols-1 items-center">
+                <!-- Headline and Subheading -->
+                <div class="text-center mb-12">
+                    <h1 class="mt-4 text-[#26877f] font-PlayfairDisplay text-3xl font-bold mb-7 mt-4">Landscaping Services</h1>
+                    <p class="text-gray-600 mt-4">We design, install, and maintain beautiful landscapes for residential and commercial properties.</p>
+                </div>
+                <!-- Service Categories -->
+                <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3  gap-8">
+                    <!-- Softscaping -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h2 class="text-xl font-bold mb-4 text-[#26877f]">Softscaping</h2>
+                        <ul class="list-disc list-inside text-gray-600">
+                            <li>Planting</li>
+                            <li>Lawns & Maintenance</li>
+                            <li>Seasonal Plantings</li>
+                        </ul>
+                    </div>
+                    <!-- Hardscaping -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h2 class="text-xl font-bold mb-4 text-[#26877f]">Hardscaping</h2>
+                        <ul class="list-disc list-inside text-gray-600">
+                            <li>Patios & Walkways</li>
+                            <li>Retaining Walls</li>
+                            <li>Fire Pits & Water Features</li>
+                        </ul>
+                    </div>
+                    <!-- Design & Consultation -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h2 class="text-xl font-bold mb-4 text-[#26877f]">Design & Consultation</h2>
+                        <p class="text-gray-600">Expert advice and plans to bring your dream landscape to life.</p>
+                    </div>
+                    <!-- Lighting & Irrigation -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h2 class="text-xl font-bold mb-4 text-[#26877f]">Lighting & Irrigation</h2>
+                        <ul class="list-disc list-inside text-gray-600">
+                            <li>Outdoor Lighting</li>
+                            <li>Irrigation Systems</li>
+                        </ul>
+                    </div>
+                    <!-- Drainage Solutions -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h2 class="text-xl font-bold mb-4 text-[#26877f]">Drainage Solutions</h2>
+                        <p class="text-gray-600">Effective solutions to manage water flow and prevent flooding.</p>
+                    </div>
+                    <!-- Commercial Landscaping -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h2 class="text-xl font-bold mb-4 text-[#26877f]">Commercial Landscaping</h2>
+                        <p class="text-gray-600">Professional landscaping services tailored for businesses and commercial properties.</p>
+                    </div>
+                </div>
+    
+                <!-- Call to Action -->
+                <div class="text-center mt-12">
+                    <a href="contact.html" class="inline-block bg-[#26877f] text-white py-3 px-6 rounded-lg text-lg hover:bg-green-700">Get a Free Quote</a>
+                </div>
+            </div>
         </section>
-      <br>
-      <br>
-      <div class="landscaping_topics">
-          <section class="Blog_topics">
-              <article class="Topic_one">
-                     <img src="Images/Landscaping_image.jpg" width="100px" height="100px" alt="Blogpost_image" class="serviceimage"  />
-                     <h3 class="bg-[#B0EED7] text-white">10 Creative Landscaping Ideas For Small Yards</h3>
-                     <p>Discover innovative solutions to maximize space, from vertical gardens to multifunctional furniture, and turn your compact outdoor area into a stunning retreat.</p>
-                     <a href="Blog.html"class="Readmorebtn">Read more..</a>
-              </article>
-              <article class="Topic_two">
-                     <img src="Images/Blogpost2.webp" width="100px" height="100px" alt="Blogpost_image" class="serviceimage" href="Blog.html"/>
-                     <h3 class="Blogpost_title">How to create a drought resistant Landscape</h3>
-                     <p>Explore practical tips and plant choices that not only conserve water but also result in a stunning and sustainable landscape.</p>
-                     <br>
-                     <br>
-                     <a href="Blog.html" class="Readmorebtn"> Read more..</a>
-              </article>
-              <article class="Topic_three">
-                    <img src="Images/Blogpost3.jpeg" width="100px" height="100px" alt="Blogpost_image" class="serviceimage" href="Blog.html"/>
-                    <h3 class="Blogpost_title">The Benefits of Native Plants in Your Landscape Design</h3>
-                    <p>Learn how incorporating native flora not only enhances the beauty of your outdoor space but also promotes biodiversity and environmental harmony for a truly eco-friendly garden.</p>
-                    <a href="Blog.html"class="Blog_button">Read more..</a>
-              </article>
-              <article class="Topic_four" >
-                    <img src="Images/Blogpost4.webp" width="100px" height="100px" alt="Blogpost_image" class="serviceimage" href="Blog.html"/>
-                    <h3 class="Blogpost_title">Landscaping on a Budget: Tips for Cost-Effective Projects</h3>
-                    <p>Explore smart and creative ideas that stretch your landscaping dollars while transforming your yard into a budget-friendly haven.</p>
+     </div>
+     
+     <!--landscaping service how it work-->
+     <section class="py-12 ml-4 mr-4">
+        <div class="container mx-auto px-6 grid-cols-1">
+            <div class="text-center mb-12 grid-cols-1">
+                <h1 class="text-[#26877f] font-PlayfairDisplay text-3xl font-bold mb-7 mt-4 text-3xl">Our Process</h1>
+                <p class="text-gray-600 mt-4">From initial consultation to project completion and maintenance, we guide you through every step of the way.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+                <!-- Free Consultation -->
+                <article class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
+                    <img src="Images/Free consultation.jpg" alt="Free Consultation" class="w-full h-32 object-cover mb-4 rounded">
+                    <h3 class="font-bold text-[#26877f] text-lg mb-2">Free Consultation</h3>
+                    <p class="text-gray-600 text-center mb-4">Discuss your ideas and vision with our experts.</p>
+                    <a href="quote.html" class="mt-auto inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700">Consult</a>
+                </article>
+                
+                <!-- Design & Planning -->
+                <article class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
+                    <img src="Images/DesingPlanning.jpg" alt="Design & Planning" class="w-full h-32 object-cover mb-4 rounded">
+                    <h3 class="font-bold text-[#26877f] text-lg mb-2">Design & Planning</h3>
+                    <p class="text-gray-600 text-center mb-4">Our team creates detailed plans tailored to your needs.</p>
+                    <a href="quote.html" class="mt-auto inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700">Design</a>
+                </article>
+
+                <!-- Project Approval -->
+                <article class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
+                    <img src="Images/project approval.jpg" alt="Project Approval" class="w-full h-32 object-cover mb-4 rounded">
+                    <h3 class="font-bold text-[#26877f] text-lg mb-2">Project Approval</h3>
+                    <p class="text-gray-600 text-center mb-4">Review and approve the final design and plans.</p>
+                    <a href="quote.html" class="mt-auto inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700">Review</a>
+                </article>
+
+                <!-- Project Execution -->
+                <article class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
+                    <img src="Images/projectexecution.jpg" alt="Project Execution" class="w-full h-32 object-cover mb-4 rounded">
+                    <h3 class="font-bold text-[#26877f] text-lg mb-2">Project Execution</h3>
+                    <p class="text-gray-600 text-center mb-4">Our skilled team brings your vision to life.</p>
+                    <a href="quote.html" class="mt-auto inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700">Execute</a>
+                </article>
+
+                <!-- Project Completion and Maintenance -->
+                <article class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
+                    <img src="Images/projectmaintanance.jpg" alt="Project Completion and Maintenance" class="w-full h-32 object-cover mb-4 rounded">
+                    <h3 class="font-bold text-[#26877f] text-lg mb-2">Completion & Maintenance</h3>
+                    <p class="text-gray-600 text-center mb-4">We ensure your project remains beautiful and functional.</p>
+                    <a href="quote.html" class="mt-auto inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700">Maintain</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--Landscaping projects-->
+     <div class="landscaping_projects mt-8 ml-4 mr-4">
+            <h2 class="text-[#26877f] font-PlayfairDisplay text-3xl font-bold mb-7 mt-4">Projects</h2>
+            <section id ="projects" class="grid  md:grid-cols-3 lg:grid-cols-4 xl:grid-col-4 ml-4 mr-4">
+                <article class="projectone text-center bg-gray-200 p-2">
+                    <img src="Images/Landscaping.jpg" alt="Blogpost_image" class="serviceimage w-full h-100" />
                     <br>
+                    <h3 class=" font-bold mt-4 text-[#26877f] text-lg mb-2">Loveza Park</h3>
+                    <h4 class="text-gray-400">Type: Elevated Entertaining Haven </h4>
                     <br>
-                    <a href="Blog.html"class="Readmorebtn">Read more..</a>
-              </article>
-           </section>
-      </div>
-      
-      <div class="landscaping_topics">
-          <section class="Blog_topics">
-              <article class="Topic_five"  >
-                  <img src="Images/Hardscaping.jpg" width="100px" height="100px" alt="Blogpost_image" class="serviceimage" href="Blog.html"/>
-                  <h3 class="Blogpost_title">The Art of Hardscaping: Enhancing Your Outdoor Space</h3>
-                  <p>Embark on a journey into the world of outdoor design with our blog, 'The Art of Hardscaping: Enhancing Your Outdoor Space.' Discover how the strategic use of hardscape elements transforms your surroundings into a functional and visually stunning haven. </p>
-                  <a href="Blog.html" class="Readmorebtn">Read more..</a>
-              </article>
-              <article class="Topic_six"  >
-                  <img src="Images/gardening-seasonal-color.jpg" width="100px" height="100px" alt="serviceimage" class="serviceimage"/>
-                  <h3 class="Blogpost_title">Seasonal Landscaping: Adapting Your Garden to the Time of Year</h3>
-                  <p>Explore the dynamic beauty of nature with our blog, 'Seasonal Landscaping: Adapting Your Garden to the Time of Year.' Uncover expert tips on how to embrace each season's unique charm, creating a garden that flourishes year-round. </p>
-                  <a href="Blog.html" class="Readmorebtn">Read more..</a>
-              </article>
-              <article class="Topic_seven"  >
-                  <img src="Images/Blogpost7.png" width="100px" height="100px" alt="Blogpost_image" class="serviceimage"/>
-                  <h3 class="Blogpost_title">Choosing the Right Trees for Your Landscape</h3>
-                  <p class="Blog_para">Navigate the vast world of landscaping with confidence in our blog, 'Choosing the Right Trees for Your Landscape.' Gain insights into selecting trees that not only enhance your outdoor aesthetics but also thrive in harmony with your specific environment. </p>
-                  <a href="Blog.html" class="Readmorebtn">Read more..</a>
-              </article>
-              <article class="Topic_eight" >
-                  <img src="Images/Blogpost8.webp" width="100px" height="100px" alt="Blogpost_image" class="serviceimage"/>
-                  <h3 class="Blogpost_title">Sustainable Landscaping Practices for an Eco-Friendly Garden</h3>
-                  <p>Embrace environmental consciousness in your garden journey with our blog, 'Sustainable Landscaping Practices for an Eco-Friendly Garden.'Explore practical tips and green choices that transform your outdoor space into a sustainable haven for both nature and relaxation.</p>
-                  <a href="Blog.html" class="Blog_Button">Read more..</a>
-              </article>
-           </section>
-       </div>
-       <br>
-       <br>
-       <br>
+                    <p class="text-gray-600 text-center mb-4">Our team transformed a neglected backyard into a vibrant outdoor haven. We removed overgrown shrubs and weeds, installed a beautiful flagstone patio perfect for entertaining, and planted colorful flower beds bursting with seasonal blooms. The addition of a trickling water feature added a touch of tranquility, while strategically placed lighting extended the enjoyment of the space into the evenings. The result? A backyard that the homeowners can now use and enjoy year-round.</p>
+                    <a href="Blog.html" class="mt-4 inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700">Read more</a>
+                </article>
+                <article class="projecttwo text-center bg-gray-200 p-2">
+                    <img src="Images/frontyard.jpg" alt="Blogpost_image" class="serviceimage w-full h-100" href="Blog.html" />
+                    <br>
+                    <h3 class=" font-bold mt-4 text-[#26877f] text-lg mb-2">Modern Townhouse Oasis</h3>
+                    <h4 class="text-gray-400">Type: Elevated Entertaining Haven </h4>
+                    <br>
+                    <p class="text-gray-600 text-center mb-4"> For this young couple's townhouse, we designed a low-maintenance outdoor haven perfect for urban relaxation. Our team crafted a sleek patio featuring built-in planters, ideal for container gardening with drought-tolerant plants.  We also installed a modern fire pit with geometric stonework, creating a stylish and functional focal point for entertaining and enjoying cool evenings under the stars. This project is a testament to how Lucky Shrub can transform your compact space into a beautiful and functional outdoor oasis.</p>
+                    <a href="Blog.html" class="mt-4 inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700 mb-4"> Read more</a>
+                </article>
+                <article class="projectthree text-center bg-gray-200 p-2">
+                    <img src="Images/frontyard7174109.jpg"  alt="Blogpost_image" class="serviceimage w-full h-100" href="Blog.html" />
+                    <br>
+                    <h3 class=" font-bold mt-4 text-[#26877f] text-lg mb-2">Family-Friendly Backyard Paradise</h3>
+                    <h4 class="text-gray-400">Type: Elevated Entertaining Haven </h4>
+                    <br>
+                    <p class="text-gray-600 text-center mb-4"> We transformed a spacious backyard into a fun and functional space for a growing family. We installed a lush green lawn perfect for playtime, along with a shaded play area with a sandbox and climbing structure. A custom-built deck with built-in seating provided ample space for outdoor dining and family gatherings. Colorful flower beds added a touch of beauty, while strategically placed lighting ensured safe enjoyment of the space after dark.</p>
+                    <a href="Blog.html" class="mt-4 inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700 mb-4">Read more</a>
+                </article>
+                <article class="projectfour text-center bg-gray-200 p-2">
+                    <img src="Images/devon-mackay-soycsxAAwv8-unsplash.jpg" 52 alt="Blogpost_image" class="serviceimage w-full h-100" href="Blog.html" />
+                    <br>
+                    <h3 class=" font-bold mt-4 text-[#26877f] text-lg mb-2">English Cottage Garden Charm</h3>
+                    <h4 class="text-gray-400">Type: Elevated Entertaining Haven </h4>
+                    <br>
+                    <p class="font-Lato">This project brought the charm of an English cottage garden to life. We incorporated winding pathways bordered by overflowing flower beds bursting with roses, lavender, and perennials. A quaint stone fountain added a touch of tranquility, while a strategically placed arbor created a charming entrance to a hidden seating area. The use of natural materials and traditional elements resulted in a timeless and inviting garden escape.</p>
+                    <a href="Blog.html" class="mt-4 inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700">Read more</a>
+                </article> 
+            </section>
+     </div>
+      <!--Blog-->
+     <div class="blog mt-8">
+            <h2 class="text-[#26877f] font-PlayfairDisplay text-3xl font-bold mb-7 mt-4">Blog</h2>
+         <section class="grid md:grid-cols-3 lg:grid-cols-4 xl:grid-col-4 gap-8">
+                <article class="Topic_one text-center p-2">
+                    <img src="Images/Backyard24.jpg"  alt="Blogpost_image" class="serviceimage w-full h-100" href="Blog.html" />
+                    <br>
+                    <h3 class="text-gray-800 font-bold mt-4">The Art of Hardscaping: Enhancing Your Outdoor Space</h3>
+                    <h4 class="text-gray-300">Type: Rustic Retreat with a View</h4>
+                    <br>
+                    <p class="font-Lato">Embark on a journey into the world of outdoor design with our comprehensive guide on hardscaping.</p>
+                    <a href="Blog.html" class="mt-4 inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700">Read more</a>
+                </article>
+                <article class="Topic_two text-center p-2">
+                    <img src="Images/benjamin-combs-wuU_SSxDeS0-unsplash.jpg"  alt="Blogpost_image" class="serviceimage w-full h-100" href="Blog.html" />
+                    <br>
+                    <h3 class="text-gray-800 font-bold mt-4">Creating Functional and Beautiful Outdoor Living Spaces</h3>
+                    <h4 class="text-gray-300">Type: Rustic Retreat with a View</h4>
+                    <br>
+                    <p class="font-Lato">Discover how to seamlessly blend form and function, crafting outdoor areas that are both practical and visually captivating.</p>
+                    <a href="Blog.html" class="mt-4 inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700">Read more</a>
+                </article>
+                <article class="Topic_three text-center p-2">
+                    <img src="Images/box-hedge-topiary-869073_640.jpg"  alt="Blogpost_image" class="serviceimage w-full h-100" href="Blog.html" />
+                    <br>
+                    <h3 class="text-gray-800 font-bold mt-4">Choosing the Right Materials for Your Hardscape Project</h3>
+                    <h4 class="text-gray-300">Type: Rustic Retreat with a View</h4>
+                    <br>
+                    <p class="font-Lato">Uncover the key factors to consider when selecting materials that not only enhance the aesthetics of your landscape but also ensure longevity and sustainability.</p>
+                    <a href="Blog.html" class="mt-4 inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700">Read more</a>
+                </article>
+                <article class="Topic_four text-center p-2">
+                    <img src="Images/Company.jpg"  alt="Blogpost_image" class="serviceimage w-full h-100" href="Blog.html" />
+                    <br>
+                    <h3 class="text-gray-800 font-bold mt-4">Innovative Hardscaping Techniques: Transforming Your Yard</h3>
+                    <h4 class="text-gray-300">Type: Rustic Retreat with a View</h4>
+                    <br>
+                    <p class="font-Lato">Explore cutting-edge hardscaping techniques that elevate your outdoor spaces, from contemporary design trends to timeless classics.</p>
+                    <a href="Blog.html" class="mt-4 inline-block bg-[#26877f] text-white font-normal rounded px-4 py-2 hover:bg-green-700">Read more</a>
+                </article>
+         </section>
+     </div>
       <br>
       <br> 
-       <section class="moreservices">
-          <article>
-                <a href="Hardscaping.html">Hardscaping Service >></a>
-          </article>
-          <article>
-              <a href="Commercial.html" class="Navpane">Commercial Service >></a>
-          </article>
-     </section>
    <!--Booking Appointment-->
-   <section class="appointment_section  justify-center mt-8">
-     <h2 class="text-[#26877f] text-2xl font-bold font-Roboto pl-20 text-center">Book an Appointment</h2>
-     <article class="text-center">
-        <form class="font-bold text-md text-[#26877f]">
-           <label for="appointment-date"><span>Date </span></label>
-           <input type="date" id="appointment-date" name="appointment-date" required>
-           <label for="appointment-time">Time:</label>
-           <input type="time" id="appointment-time" name="appointment-time" required>
-           <br>
-           <button type="submit" class="button mt-4 bg-[#26877f] text-white rounded p-2">Book Now</button>
-        </form>
-     </article>
- </section>
- <!--Newsletter Section-->
- <section id="Newsletter" class="bg-[#26877f] py-16">
-  <div class=" mx-auto px-6">
-    <div class="text-center text-white mb-8">
-      <h2 class="text-3xl font-bold text-white">Stay Updated</h2>
-      <p class="text-lg text-white">Subscribe to our newsletter for the latest adventures and travel tips</p>
+   <div class="flex justify-center items-center min-h-screen bg-gray-100">
+    <div class="bg-white p-8 rounded shadow-md w-full max-w-lg">
+       <h2 class="text-2xl font-bold mb-4 text-[#26877f]">Lucky Shrub Appointment</h2>
+       <form id="contactForm" class="space-y-4">
+           <div>
+               <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+               <input type="text" id="name" name="name" required class="mt-1 block w-full p-2 border border-gray-300 rounded">
+           </div>
+           <div>
+               <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+               <input type="email" id="email" name="email" required class="mt-1 block w-full p-2 border border-gray-300 rounded">
+           </div>
+           <div>
+               <label for="phone" class="block text-sm font-medium text-gray-700">Phone</label>
+               <input type="tel" id="phone" name="phone" required class="mt-1 block w-full p-2 border border-gray-300 rounded">
+           </div>
+           <div>
+               <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+               <textarea id="message" name="message" rows="4" required class="mt-1 block w-full p-2 border border-gray-300 rounded"></textarea>
+           </div>
+           <button type="submit" class="w-full bg-[#26877f] text-white p-2 rounded hover:bg-green-700">Send Message</button>
+       </form>
+       <div id="responseMessage" class="mt-4 hidden p-4 bg-green-100 text-green-700 rounded"></div>
     </div>
-    <div class="flex justify-center">
-      <form class="w-full max-w-md">
-        <div class="flex items-center border-b border-b-2 border-white py-2">
-          <input class="appearance-none bg-transparent border-none w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="email" placeholder="Your email address" aria-label="Email">
-          <button class="bg-white text-gray-600 mx-6 py-2 px-4 rounded hover:bg-gray-100" type="submit">Subscribe</button>
-        </div>
-      </form>
-    </div>
-  </div>
- </section>
-<!--Footer Section-->
-<footer class="bg-[#B0EED7] text-[#26877f] py-8">
-  <div id="footer" class=" mx-auto flex flex-col md:flex-row justify-between items-center">
-       <div class="btmimg" class="mb-6 md:mb-0">
-          <img src="Asset 2@3x.png" class="w-12 h-17" alt="Logo">
-       </div>
-       <br>
-       <div class="mb-6 md:mb-0">
-          <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-[#26877f]">
-             <li><a href="index.html" class="hover:font-bold">Home</a></li>
-             <li><a href="About.html" class="hover:font-bold">About</a></li>
-             <li><a href="menu.html" class="hover:font-bold">Services</a></li>
-             <li><a href="Reservation.html" class="hover:font-bold">Projects</a></li>
-             <li><a href="orderonline.html" class="hover:font-bold">Blog</a></li>
-             <li><a href="LogIn.html" class="hover:font-bold">LogIn</a></li>
-             <li><a href="tel:0430590800" class="hover:font-bold">Phone</a></li>
-             <li><a href="mailto:sshammim@gmail.com" class="hover:font-bold">Email</a></li>
-          </ul>
-       </div>
-  </div>
-</footer>
- <div class="text-center mt-6 text-gray-500">
-   <p>&copy; Lucky Shrub</p>
-   <p>All rights reserved</p>
- </div>
- <script>
-    document.getElementById('menuBtn').addEventListener('click', function(){
-    const sidebar =document.getElementById('sidebar');
-    sidebar.classList.toggle('hidden');
-    });
- </script>
+   </div>
+  <!--Footer Section-->
+    <footer class="bg-[#B0EED7] text-[#26877f] py-8">
+        <div id="footer" class=" mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="btmimg" class="mb-6 md:mb-0">
+                <a href="index.html"><img src="Asset 2@3x.png" class="w-20 h-17 justify-between items-center"  alt="Logo" class="Sitelogo"/></a>
+            </div>
+            <br>
+           <div class="flex justify-center">
+                <h2 class="text-xl font-bold text-[#26877f]">Stay Updated</h2>
+              <form class="w-full max-w-md">
+                    <div class="flex items-center border-b border-b-2 border-white py-2">
+                        <input class="appearance-none bg-transparent border-none w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="email" placeholder="Your email address" aria-label="Email">
+                        <button class="bg-white text-gray-600 mx-6 py-2 px-4 rounded hover:bg-gray-100" type="submit">Subscribe</button>
+                   </div>
+             </form>
+          </div>
+            <div class="contact" class="mb-6 md:mb-0">
+                <a href="tel:0430590800" class="hover:font-bold">+61- 0430590800</a>
+                <a href="mailto:sshammim@gmail.com" class="hover:font-bold">sshammim@gmail.com</a>
+            </div>
+      </div>
+   </footer>
+   <div class="text-center mt-6 text-gray-500">
+     <p>&copy; Lucky Shrub</p>
+     <p>All rights reserved</p>
+   </div>
+   <script>
+      document.getElementById('menuBtn').addEventListener('click', function(){
+      const sidebar =document.getElementById('sidebar');
+      sidebar.classList.toggle('hidden');
+      });
+   </script>
+  <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+           event.preventDefault();
+ 
+           const name = document.getElementById('name').value;
+           const email = document.getElementById('email').value;
+           const phone = document.getElementById('phone').value;
+           const message = document.getElementById('message').value;
+ 
+           document.getElementById('responseMessage').innerText = `
+               Thank you, ${name}! We have received your message. 
+               Email: ${email}
+               Phone: ${phone}
+               Message: ${message}
+           `;
+           document.getElementById('responseMessage').classList.remove('hidden');
+       });
+   </script>
  </body>
 </html>

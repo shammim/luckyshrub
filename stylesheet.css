@@ -105,45 +105,6 @@ button{
   padding-right: 30px;
   row-gap: 20px;
 }
-.tabname{
-  align-items: center;
-  font-family: 'Roboto' sans-serif;
-  font-size: 20px;
-  padding-bottom: 20px;
-}
-.Landscapetab{
-  color: black;
-  padding-inline: 20px;
-}
-.projectstab{
-  background-color: #F8F0F0;
-  padding: 30px;
-}
-.projects_tab{
-  border-style:solid ;
-  border-width: 2px;
-  border-color:#fff;
-  color: #fff;
-  background-color: #26877f;
-  border-radius: 0px;
-}
-.Landscape_tab,.Hardscaping_tab,.Commercial_tab{
-  border-style:solid ;
-  border-width: 2px;
-  border-color:#777;
-  color: #000;
-  background-color: #D9D9D9;
-  border-radius: 0px;
-  padding-inline: 10px;
-}
-.Landscaping, .Hardscaping, .Commercial{
-  margin-left: 60px;
-  width: 18rem;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #26877f;
-  padding-inline: 20px;
-}
 .Project_details{
   padding-top: 30px;
 }
@@ -173,11 +134,12 @@ button{
 } */
 .projectname{
   padding-top: 20px;
-  color:#333;
+  color:#26877f;
   font-family: 'Roboto',sans-serif;
-  font-size: 18px;
-  font-weight: normal;
+  font-size: 20px;
+  font-weight: bold;
   padding-right: 30px;
+  text-align: center;
 }
 .explore{
  margin-left: 90px;
@@ -187,9 +149,10 @@ button{
  border-style: solid;
  border-radius: 8px;
 }
-.Riveraimg,.Shellimg,.hardscapeimg{
+.Shellimg{
   margin-left: 10px;
- padding-inline: 50px;
+  padding-inline: 50px;
+  border-radius: 10px;
 }
 .Ongoing_projects{
  padding-inline: 90px;
@@ -325,6 +288,7 @@ border-radius: 1rem;
 }
 article img {
  max-width: 100%;
+ align-items: center;
 }
 article ul {
   list-style: none;
